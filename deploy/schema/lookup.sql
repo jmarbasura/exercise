@@ -5,6 +5,6 @@ BEGIN;
 CREATE SCHEMA lookup;
 
 
-ALTER SCHEMA lookup OWNER TO jason;
+ALTER SCHEMA lookup OWNER TO postgres;
 
 COMMIT;

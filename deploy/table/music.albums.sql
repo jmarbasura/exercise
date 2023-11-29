@@ -18,6 +18,6 @@ CREATE TABLE music.albums (
 );
 
 
-ALTER TABLE music.albums OWNER TO jason;
+ALTER TABLE music.albums OWNER TO postgres;
 
 COMMIT;

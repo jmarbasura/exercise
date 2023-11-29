@@ -14,6 +14,6 @@ CREATE TABLE music.users (
 );
 
 
-ALTER TABLE music.users OWNER TO jason;
+ALTER TABLE music.users OWNER TO postgres;
 
 COMMIT;

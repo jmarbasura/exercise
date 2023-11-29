@@ -16,6 +16,6 @@ CREATE TABLE public.users (
 );
 
 
-ALTER TABLE public.users OWNER TO jason;
+ALTER TABLE public.users OWNER TO postgres;
 
 COMMIT;

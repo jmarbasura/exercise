@@ -34,7 +34,7 @@ ALTER TABLE ONLY music.streaming_plays
     ADD CONSTRAINT uniq_streaming_plays UNIQUE (album_id, track_number, user_id, play_timestamp);
 
 
-ALTER TABLE music.streaming_plays OWNER TO jason;
+ALTER TABLE music.streaming_plays OWNER TO postgres;
 
 --ALTER TABLE ONLY music.streaming_plays
 --    ADD CONSTRAINT game_position_log_hawkeye_v10_pkey_new PRIMARY KEY (play_id, play_timestamp);

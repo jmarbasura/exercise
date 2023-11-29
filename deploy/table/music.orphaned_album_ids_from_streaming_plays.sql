@@ -14,6 +14,6 @@ CREATE TABLE music.orphaned_album_ids_from_streaming_plays (
 );
 
 
-ALTER TABLE music.orphaned_album_ids_from_streaming_plays OWNER TO jason;
+ALTER TABLE music.orphaned_album_ids_from_streaming_plays OWNER TO postgres;
 
 COMMIT;

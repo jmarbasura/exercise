@@ -11,6 +11,6 @@ CREATE TABLE public.streaming_plays (
 );
 
 
-ALTER TABLE public.streaming_plays OWNER TO jason;
+ALTER TABLE public.streaming_plays OWNER TO postgres;
 
 COMMIT;

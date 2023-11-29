@@ -14,6 +14,6 @@ CREATE TABLE music.streaming_plays_y2024m02 (
 );
 
 
-ALTER TABLE music.streaming_plays_y2024m02 OWNER TO jason;
+ALTER TABLE music.streaming_plays_y2024m02 OWNER TO postgres;
 
 COMMIT;

@@ -15,6 +15,6 @@ CREATE MATERIALIZED VIEW music.streaming_plays_matview AS
   WITH NO DATA;
 
 
-ALTER TABLE music.streaming_plays_matview OWNER TO jason;
+ALTER TABLE music.streaming_plays_matview OWNER TO postgres;
 
 COMMIT;

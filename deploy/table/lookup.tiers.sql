@@ -12,6 +12,6 @@ CREATE TABLE lookup.tiers (
 );
 
 
-ALTER TABLE lookup.tiers OWNER TO jason;
+ALTER TABLE lookup.tiers OWNER TO postgres;
 
 COMMIT;

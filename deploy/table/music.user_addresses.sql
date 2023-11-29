@@ -13,6 +13,6 @@ CREATE TABLE music.user_addresses (
 );
 
 
-ALTER TABLE music.user_addresses OWNER TO jason;
+ALTER TABLE music.user_addresses OWNER TO postgres;
 
 COMMIT;

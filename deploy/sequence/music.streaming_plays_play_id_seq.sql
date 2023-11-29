@@ -11,6 +11,6 @@ CREATE SEQUENCE music.streaming_plays_play_id_seq
     NO MAXVALUE
     CACHE 1;
 
-ALTER TABLE music.streaming_plays_play_id_seq OWNER TO jason;
+ALTER TABLE music.streaming_plays_play_id_seq OWNER TO postgres;
 
 COMMIT;

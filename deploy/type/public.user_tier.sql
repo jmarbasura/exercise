@@ -8,6 +8,6 @@ CREATE TYPE public.user_tier AS ENUM (
 );
 
 
-ALTER TYPE public.user_tier OWNER TO jason;
+ALTER TYPE public.user_tier OWNER TO postgres;
 
 COMMIT;

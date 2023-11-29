@@ -15,6 +15,6 @@ CREATE TABLE music.streaming_plays (
 PARTITION BY RANGE (play_timestamp);
 
 
-ALTER TABLE music.streaming_plays OWNER TO jason;
+ALTER TABLE music.streaming_plays OWNER TO postgres;
 
 COMMIT;

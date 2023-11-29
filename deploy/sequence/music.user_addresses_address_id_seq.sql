@@ -11,7 +11,7 @@ CREATE SEQUENCE music.user_addresses_address_id_seq
     NO MAXVALUE
     CACHE 1;
 
-ALTER TABLE music.user_addresses_address_id_seq OWNER TO jason;
+ALTER TABLE music.user_addresses_address_id_seq OWNER TO postgres;
 
 ALTER SEQUENCE music.user_addresses_address_id_seq OWNED BY music.user_addresses.address_id;
 

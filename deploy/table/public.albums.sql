@@ -17,6 +17,6 @@ CREATE TABLE public.albums (
 );
 
 
-ALTER TABLE public.albums OWNER TO jason;
+ALTER TABLE public.albums OWNER TO postgres;
 
 COMMIT;

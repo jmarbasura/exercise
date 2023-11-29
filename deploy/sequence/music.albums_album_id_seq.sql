@@ -10,7 +10,7 @@ CREATE SEQUENCE music.albums_album_id_seq
     NO MAXVALUE
     CACHE 1;
 
-ALTER TABLE music.albums_album_id_seq OWNER TO jason;
+ALTER TABLE music.albums_album_id_seq OWNER TO postgres;
 
 
 

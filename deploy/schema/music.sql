@@ -5,6 +5,6 @@ BEGIN;
 CREATE SCHEMA music;
 
 
-ALTER SCHEMA music OWNER TO jason;
+ALTER SCHEMA music OWNER TO postgres;
 
 COMMIT;
