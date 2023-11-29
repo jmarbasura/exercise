@@ -1,0 +1,9 @@
+%syntax-version=1.0.0
+%project=id.me
+
+schema/public 2023-11-18T03:13:17Z ,,, <jason@hpspectre> # creates the public schema
+type/public.user_tier 2023-11-19T21:24:40Z ,,, <jason@hpspectre> # creates the public.user_tier type
+table/public.albums [schema/public] 2023-11-19T21:25:26Z ,,, <jason@hpspectre> # creates the public.albums table
+table/public.streaming_plays [schema/public] 2023-11-19T21:25:26Z ,,, <jason@hpspectre> # creates the public.streaming_plays table
+table/public.users [schema/public] 2023-11-19T21:25:27Z ,,, <jason@hpspectre> # creates the public.users table
+alter_table_only/public.users-users_pkey [schema/public table/public.users] 2023-11-29T18:59:02Z ,,, <jason@hpspectre> # alter table only for the public.users table to ADD CONSTRAINT for users_pkey
